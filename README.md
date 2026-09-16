@@ -1,1 +1,1 @@
-# PicknPay
+# Pick-n-Pay
