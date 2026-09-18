@@ -82,15 +82,16 @@ PICK-N-PAY/
 ├── contact.html
 └── README.md
 
-Navigation / Sitemap
-Home
+#Navigation / Sitemap
+#Home
 │
 ├── About Us
 ├── Products
 ├── Enquiry
 └── Contact
 All pages are connected through the navigation menu.
-Part 1 – Website Structure and Content
+
+#Part 1 – Website Structure and Content
 
 Part 1 focused on planning and developing the basic structure and content of the website.
 The website includes five interconnected HTML pages:
@@ -100,7 +101,7 @@ products.html
 enquiry.html
 contact.html
 
-Images were stored in the images folder and used throughout the website to support the content.
+#Images were stored in the images folder and used throughout the website to support the content.
 The website uses semantic HTML elements such as:
 <header>
 <nav>
@@ -112,7 +113,7 @@ The website uses semantic HTML elements such as:
 The pages were linked together using navigation links to allow users to move between the different sections of the website.
 
 
-Part 1 Changelog
+#Part 1 Changelog
 Initial Website Development
 Created the Pick n Pay website project.
 Created the five required HTML pages.
@@ -130,7 +131,7 @@ Tested the navigation links between the website pages.
 Checked that images display correctly.
 Improved the structure and organisation of the website.
 
-Technologies Used
+#Technologies Used
 HTML5
 CSS3
 Visual Studio Code
@@ -202,12 +203,12 @@ The tests were used to check that the website content, navigation, images and pr
 - Improved the overall visual consistency and responsiveness of the website.
 
 
-References
+#References
 Pick n Pay. Official website.
 https://www.pnp.co.za/⁠�
 WEDE5020 Web Development (Introduction) Assignment Brief.
 
-Author
+#Author
 Esther 
 WEDE5020 – Web Development (Introduction)
 
