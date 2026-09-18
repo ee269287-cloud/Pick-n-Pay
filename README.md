@@ -82,8 +82,8 @@ PICK-N-PAY/
 ├── contact.html
 └── README.md
 
-#Navigation / Sitemap
-#Home
+# Navigation / Sitemap
+# Home
 │
 ├── About Us
 ├── Products
@@ -91,7 +91,7 @@ PICK-N-PAY/
 └── Contact
 All pages are connected through the navigation menu.
 
-#Part 1 – Website Structure and Content
+# Part 1 – Website Structure and Content
 
 Part 1 focused on planning and developing the basic structure and content of the website.
 The website includes five interconnected HTML pages:
@@ -131,14 +131,14 @@ Tested the navigation links between the website pages.
 Checked that images display correctly.
 Improved the structure and organisation of the website.
 
-#Technologies Used
+Technologies Used
 HTML5
 CSS3
 Visual Studio Code
 GitHub
-## Part 2 – CSS Styling and Responsive Design
+Part 2 – CSS Styling and Responsive Design
 
-### CSS Styling
+CSS Styling
 
 For Part 2, an external CSS stylesheet named `style.css` was created in the `css` folder and linked to all five HTML pages.
 
@@ -159,23 +159,23 @@ The following styling features were implemented:
 - Added responsive image styling using `max-width: 100%` and `height: auto`.
 - Added `srcset` and `sizes` attributes to selected images.
 
-### Responsive Design
+Responsive Design
 
 The website was designed to respond to different screen sizes.
 
-#### Desktop
+Desktop
 
 The desktop layout uses a wider screen and displays the product categories in three columns. The navigation menu is displayed horizontally.
 
-#### Tablet
+ Tablet
 
 At tablet screen sizes, the product grid changes to two columns. The layout and spacing are adjusted to fit the smaller screen.
 
-#### Mobile
+Mobile
 
 At mobile screen sizes, the product grid changes to one column. The navigation menu changes to a vertical layout, while buttons and form elements adjust to fit the smaller screen.
 
-### Responsive Testing
+Responsive Testing
 
 The website was tested using browser Developer Tools at different screen sizes:
 
@@ -185,7 +185,7 @@ The website was tested using browser Developer Tools at different screen sizes:
 
 The tests were used to check that the website content, navigation, images and product layout remained usable at different screen sizes.
 
-### Part 2 Changelog
+ Part 2 Changelog
 
 - Created an external `style.css` stylesheet.
 - Linked `style.css` to all five HTML pages.
@@ -203,12 +203,12 @@ The tests were used to check that the website content, navigation, images and pr
 - Improved the overall visual consistency and responsiveness of the website.
 
 
-#References
+References
 Pick n Pay. Official website.
 https://www.pnp.co.za/⁠�
 WEDE5020 Web Development (Introduction) Assignment Brief.
 
-#Author
+Author
 Esther 
 WEDE5020 – Web Development (Introduction)
 
