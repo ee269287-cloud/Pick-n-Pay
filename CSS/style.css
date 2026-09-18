@@ -289,7 +289,7 @@ footer p {
 
 /* TABLET RESPONSIVE DESIGN */
 
-@media (max-width: 980px) {
+@media (max-width: 1000px) {
     h1 {
         font-size: 2rem;
     }
