@@ -208,6 +208,17 @@ Pick n Pay. Official website.
 https://www.pnp.co.za/⁠�
 WEDE5020 Web Development (Introduction) Assignment Brief.
 
+Independent Institute of Education (Pty) Ltd. (2026). *WEDE5020 Web Development (Introduction) Assignment Brief*. Rosebank College.
+
+MDN Web Docs. (2026). *CSS: Cascading Style Sheets*. Available at:
+https://developer.mozilla.org/en-US/docs/Web/CSS
+
+MDN Web Docs. (2026). *Responsive images*. Available at:
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
+
+W3Schools. (2026). *CSS Responsive Web Design*. Available at:
+https://www.w3schools.com/css/css_rwd_intro.asp
+
 Author
 Esther 
 WEDE5020 – Web Development (Introduction)
