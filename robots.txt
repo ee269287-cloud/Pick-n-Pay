@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ee269287-cloud.github.io/Pick-n-Pay/sitemap.xml
