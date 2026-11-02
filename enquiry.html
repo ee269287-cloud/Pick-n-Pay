@@ -5,7 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Pick n Pay | Enquiry </title>
+    <title><b>PRODUCT ENQUIRIES </b>| PICK N PAY SOUTH AFRICA</title>
+
+    <meta name="description" content="Shop quality groceries, fresh produce, bakery products and household essentials at Pick n Pay South Africa.">
+<meta name="keywords" content="Pick n Pay, groceries, fresh produce, bakery, food cupboard, household products">
+<meta name="author" content="Pick n Pay Website Project">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -60,140 +66,71 @@
 
             <h2>Enquiry Form</h2>
 
-            <form action="#" method="post">
+           
+<form id="enquiryForm" action="#" method="post">
 
-                <!-- Name -->
-                 <label for="name">Full Name:</label>
+    <label for="name">Full Name:</label>
+    <br>
+    <input type="text" id="name" name="name"
+           placeholder="Enter your full name" required>
+    <br><br>
 
+    <label for="email">Email Address:</label>
+    <br>
+    <input type="email" id="email" name="email"
+           placeholder="Enter your email address" required>
+    <br><br>
 
-                 <br>
+    <label for="phone">Phone Number:</label>
+    <br>
+    <input type="tel" id="phone" name="phone"
+           placeholder="e.g. 0821234567"
+           pattern="0[6-8][0-9]{8}"
+           title="Enter a valid 10-digit South African cellphone number"
+           required>
+    <br><br>
 
+    <label for="enquiry-type">Enquiry Type:</label>
+    <br>
+    <select id="enquiry-type" name="enquiry-type" required>
+        <option value="">Select an enquiry type</option>
+        <option value="products">Products</option>
+        <option value="online-shopping">Online shopping</option>
+        <option value="delivery">Delivery</option>
+        <option value="store">Store information</option>
+        <option value="other">Other</option>
+    </select>
+    <br><br>
 
-                 <input
-                 type="text"
-                 id="name"
-                 name="name"
-                 placeholder="Enter your full name"
-                 required
-                 >
+    <label for="message">Your Enquiry:</label>
+    <br>
+    <textarea id="message" name="message"
+              rows="6" cols="40"
+              minlength="10"
+              placeholder="Type your enquiry here..."
+              required></textarea>
+    <br><br>
 
-                 
-                 <br><br>
+    <p>Preferred contact method:</p>
 
-                 <!-- Email -->
-                  <label for="email">Email Address:</label>
+    <input type="radio" id="phone-contact"
+           name="contact-method" value="Phone" required>
+    <label for="phone-contact">Phone</label>
 
-                  <br>
+    <input type="radio" id="email-contact"
+           name="contact-method" value="Email">
+    <label for="email-contact">Email</label>
 
+    <br><br>
 
-                 <input 
-                 type="email"
-                 id="email"
-                 name="email"
-                 placeholder="Enter your email address"
-                 required
-                 >
+    <button type="submit">Submit Enquiry</button>
+    <button type="reset">Clear Form</button>
 
-                 <br><br>
+    <p id="enquiryResponse" role="status"></p>
 
+</form>
 
-                 <!-- Phone -->
-                  <label for="phone">Phone number</label>
-
-
-                  <br> 
-
-
-                  <input
-                  type="tel"
-                  id="phone"
-                  name="phone"
-                  placeholder="Enter your phone number"
-                  >
-
-
-                  <br><br>
-
-
-                  <!-- Enquiry Type -->
-                   <label for="enquiry-type"> Enquiry Type:</label>
-                  <br>
-
-                  <select id="enquiry-type" name="enquiry-type">
-                    
-                    <option value=""> Select an enquiry type</option>
-
-                    <option value="products" >Products</option>
-
-                    <option value="online-shopping">Online shopping</option>
-
-                    <option value="delivery"Delivery></option>
-
-                    <option value="store"Store information></option>
-
-                    <option value="other"Other></option>
-
-        </select>
-
-
-        <br><br>
-          
-        <!-- Message -->
-         <label for="message">
-            Your Enquiry:
-         </label>
-         <br>
-
-         <textarea
-         id="message"
-         name="message"
-         rows="6"
-         cols="40"
-         placeholder="Type your enquiry here..."
-         required
-
-
-             ></textarea>
-
-             <br><br>
-
-             <!-- Prefered contact   -->
-              <p>Preferred contact method:</p>
-
-              <input
-              type="radio"
-              id="email-contact"
-              name="contact-method"
-              value="phone"
-            
-              >
-
-              <label for="phone-contact">Phone</label>
-
-
-              <br><br>
-
-              <!-- Newsletter -->
-               <input
-               type="checkbox"
-               id="newsletter"
-               name="newsletter"
-               value="yes"
-               >
-               <label for="newsletter">I would like to receive updates and information.</label>
-
-               <br><br>
-
-                  
-                   <!-- Buttons  -->
-                    <button type="submit">Submit Enquiry</button>
-
-                    <button type="reset">Clear form</button>
-
-                    </form>
-
-          </section>
-          
+         
                <!-- additonal information -->
                 <section>
 
