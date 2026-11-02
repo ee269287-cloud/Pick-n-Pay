@@ -5,7 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Pick n Pay| Contact Us </title>
+    <title><b> CONTACT PICK N PAY</b>| CUSTOMER SUPPORT</title>
+
+    <meta name="description" content="Shop quality groceries, fresh produce, bakery products and household essentials at Pick n Pay South Africa.">
+<meta name="keywords" content="Pick n Pay, groceries, fresh produce, bakery, food cupboard, household products">
+<meta name="author" content="Pick n Pay Website Project">
+
+
     <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -39,6 +45,8 @@
             </ul>
          </nav>
      </header>
+     
+
 
      <!--Main Content  -->
        <main>
@@ -69,8 +77,8 @@
                 </p>
                  
                 <p>
-                    <Strong>Email:</Strong>
-                    <a href="customerervice@pnp.co.za"></a>
+                    <strong>Email:</strong>
+                    customerservice@pnp.co.za
                 </p>
 
                 </section>
@@ -81,7 +89,7 @@
                     <h2>Business hours</h2>
 
                     <ul>
-                        <li>Monday - friday: 08h00-18h00</li>
+                        <li>Monday - friday: 08h00-22h00</li>
 
                         <li>Saturday: 08h00-17h00</li>
 
@@ -102,6 +110,23 @@
                     <p>Please use the store locator to Pick n Pay near you </p>
 
                   </selection>
+                  
+<!-- Interactive Store Map -->
+<section id="store-location">
+    <h2>Find Our Store</h2>
+    <p>Visit Pick n Pay at Mall of Africa, Midrand, Gauteng.</p>
+
+    <iframe
+        src="https://maps.google.com/maps?q=Pick%20n%20Pay%20Mall%20of%20Africa%20Midrand&t=&z=15&ie=UTF8&iwloc=&output=embed"
+        width="100%"
+        height="400"
+        style="border:0;"
+        allowfullscreen
+        loading="lazy"
+        title="Pick n Pay Mall of Africa location">
+    </iframe>
+</section>
+       
 
                   <!-- Social media -->
                    <section>
@@ -113,13 +138,19 @@
                     <ul>
 
                         <li>
-                            <a href="#" target="_blank">Facebook</a>
+
+                            <a href="#" target="_blank">  Facebook  </a>
+
+                        </li>
+                        <li>
+
+                            <a href="#" target="_blank"> Instragram </a>
+
                         </li>
 
-                        <li>
-                            <a href="#" target="_blank">Instragram</a>
-                        </li>
-                    </ul>
+
+
+                    </ul> 
 
                    </section>
 
@@ -129,14 +160,93 @@
                         <h2>Have a Question?</h2>
 
                         <p>
-                            If you have a question or beedmore infomation , please complete our enquiry form
+                            If you have a question or Need more infomation , please complete our enquiry form
                         </p>
 
                         <a href="enquiry.html">Go to Enquiry form</a>
 
                     </section>
 
+                    
+<!-- Frequently Asked Questions -->
+<section id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <p>Find answers to some common Pick n Pay customer questions.</p>
+
+    <details>
+        <summary>Where can I find my nearest Pick n Pay store?</summary>
+        <p>You can use the store locator on the official Pick n Pay website to find a store near you.</p>
+    </details>
+
+    <details>
+        <summary>How can I check product availability?</summary>
+        <p>Contact your nearest Pick n Pay store to ask whether a specific product is available.</p>
+    </details>
+
+    <details>
+        <summary>Can I shop online?</summary>
+        <p>Visit the official Pick n Pay website to explore available online shopping services.</p>
+    </details>
+
+    <details>
+        <summary>How can I make a complaint?</summary>
+        <p>You can use the contact form below to send your complaint or contact customer support.</p>
+    </details>
+
+    <details>
+        <summary>How can I contact Pick n Pay?</summary>
+        <p>You can contact Pick n Pay using the contact information provided on this page or submit a message through our contact form.</p>
+    </details>
+</section>
+
        </main>
+
+       
+<!-- Customer Contact Form -->
+<section>
+    <h2>Send Us a Message</h2>
+
+    <form id="contactForm" action="#" method="post">
+
+        <label for="contactName">Full Name:</label>
+        <br>
+        <input type="text" id="contactName" name="contactName"
+               placeholder="Enter your full name" required>
+        <br><br>
+
+        <label for="contactEmail">Email Address:</label>
+        <br>
+        <input type="email" id="contactEmail" name="contactEmail"
+               placeholder="Enter your email address" required>
+        <br><br>
+
+        <label for="messageType">Message Type:</label>
+        <br>
+        <select id="messageType" name="messageType" required>
+            <option value="">Select message type</option>
+            <option value="Compliment">Compliment</option>
+            <option value="Complaint">Complaint</option>
+            <option value="Suggestion">Suggestion</option>
+            <option value="General Question">General Question</option>
+        </select>
+        <br><br>
+
+        <label for="contactMessage">Your Message:</label>
+        <br>
+        <textarea id="contactMessage" name="contactMessage"
+                  rows="6" minlength="10"
+                  placeholder="Write your message here..."
+                  required></textarea>
+        <br><br>
+
+        <button type="submit">Send Message</button>
+        <button type="reset">Clear Form</button>
+
+        <p id="contactResponse" role="status"></p>
+
+    </form>
+</section>
+
         <!-- Footer Section  -->
        <footer>
 
@@ -147,5 +257,6 @@
         <P>WEDE5020- Web Development (Introduction)</P>
        </footer>
 
+       <script src="js/script.js"></script>
 </body>
 </html>
