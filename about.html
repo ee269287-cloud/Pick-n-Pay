@@ -6,7 +6,14 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Pick n Pay | About Us </title>
+    <title><b> ABOUT PICK N PAY</b>| OUR STORY AND VALUES</title>
+
+    <meta name="description"
+        content="Shop quality groceries, fresh produce, bakery products and household essentials at Pick n Pay South Africa.">
+    <meta name="keywords" content="Pick n Pay, groceries, fresh produce, bakery, food cupboard, household products">
+    <meta name="author" content="Pick n Pay Website Project">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="css/style.css">
 
 
@@ -15,12 +22,12 @@
 <body>
 
     <!-- Header section -->
-     <header>
+    <header>
 
         <h1>Pick n Pay</h1>
 
         <!-- Navigation Menu -->
-         <nav>
+        <nav>
             <ul>
                 <li>
                     <a href="index.html">Home</a>
@@ -33,7 +40,7 @@
                 <li>
                     <a href="products.html">Products</a>
                 </li>
-                
+
                 <li>
                     <a href="enquiry.html">Enquiry</a>
                 </li>
@@ -42,109 +49,129 @@
                     <a href="contact.html">Contact</a>
                 </li>
             </ul>
-         </nav>
+        </nav>
 
-     </header>
+    </header>
 
 
-     <!--Main content -->
-     <main>
+    <!--Main content -->
+    <main>
 
         <!-- About Pick n Pay -->
-         <section>
+        <section>
 
             <h2>ABOUT PICK N PAY</h2>
 
             <img src="images/Pick-n-pay-300x200.jpg" alt="Pick n Pay store exterior" width="800">
 
             <p>
-                Pick n Pay is a South African retail organisation that provides customers with grogery and retail products through its stores and digital services .
+                Pick n Pay is a South African retail organisation that provides customers with grogery and retail
+                products through its stores and digital services .
             </p>
 
             <p>
-                The  company provides cusromers with access to everday products and convenient shopping serives.
+                The company provides cusromers with access to everday products and convenient shopping serives.
             </p>
 
-         </section>
 
-         <!-- Background -->
-          <section>
-            
-            <h2>Our Background</h2>
+            <section id="about-tabs">
+                <h2>Discover Pick n Pay</h2>
 
-            <p>
-                Pick n Pay operates through physical stores and digital shopping services.Customers can purchase a variety of products for their everyday needs.
-            </p>
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="background">Our Background</button>
+                    <button class="tab-btn" data-tab="mission">Our Mission</button>
+                    <button class="tab-btn" data-tab="vision">Our Vision</button>
+                    <button class="tab-btn" data-tab="customers">Our Customers</button>
+                </div>
 
-          </section>
+                <div class="tab-content active" id="background">
+                    <h3>Our Background</h3>
+                    <p>Pick n Pay is a South African retail organisation offering customers groceries and everyday
+                        products through physical stores and digital shopping services.</p>
+                </div>
 
+                <div class="tab-content" id="mission" hidden>
+                    <h3>Our Mission</h3>
+                    <p>Our mission is to provide customers with convenient access to quality products, useful services
+                        and value.</p>
+                </div>
 
-          <!-- Misson   -->
-           <section>
+                <div class="tab-content" id="vision" hidden>
+                    <h3>Our Vision</h3>
+                    <p>Our vision is to provide a convenient and customer-focused shopping experience through physical
+                        and digital channels.</p>
+                </div>
 
-            <h2> Our mission</h2>
-
-            <p>
-                Our mission is to provide customers with convenient access to quality products , useful servicesand value.
-            </p>
-
-           </section>
-
-
-           <!-- Vision -->
-            <section>
-
-                <h2>Our Vision</h2>
-
-                <p>
-                    Our vision to provide a convenient and customer-focused shopping experience through physical and digital channels.
-                </p>
+                <div class="tab-content" id="customers" hidden>
+                    <h3>Our Target Customers</h3>
+                    <p>Pick n Pay serves families, students, working individuals, regular grocery shoppers and online
+                        shoppers.</p>
+                </div>
             </section>
 
-            <!-- Target customers  -->
-             <section>
-                <h2>Our Target Customers</h2>
-
-                <p>Pick n Pay serves a wide range of customers, including:</p>
-
-                <ul>
-
-                    <li>Families</li>
-                    <li>Students</li>
-                    <li>Working details</li>
-                    <li>Regular grogery shoppers</li>
-                    <li>Online shopper</li>
-
-                </ul>
-
-             </section>
-
-             <!-- Link back to Home -->
-              <section>
-
+            <section>
                 <h2> Explore Pick n Pay</h2>
-
                 <p>
-                    Visit our product page to explore some of  the product categories available.
+                    Visit our product page to explore some of the product categories available.
                 </p>
+                <div class="container">
+                    <div class="gallery">
 
-                <a href="products.html">View  Products</a>
+                        <a class="gallery-item" href="./images/store-interior.jpg">
+                            <img src="./images/store-interior.jpg" alt="pnp braam interior" loading="lazy">
+                        </a>
 
-                <img src="images/BLGTHS28609_PnP Weekly Specials.jpg">
+                        <a class="gallery-item" href="./images/All-Pages-7-scaled.jpg">
+                            <img src="./images/All-Pages-7-scaled.jpg" alt="FoodCupboard-Desktop" loading="lazy">
+                        </a>
 
-              </section>
+                        <a class="gallery-item" href="./images/online-shopping.jpg">
+                            <img src="./images/online-shopping.jpg" alt="online shopping" loading="lazy">
+                        </a>
 
-     </main>
+                        <a class="gallery-item" href="./images/PnP-Blue-Hills-fruit-and-veg-section-233x233.jpg">
+                            <img src="./images/PnP-Blue-Hills-fruit-and-veg-section-233x233.jpg"
+                                alt="Fruit and vegatable" loading="lazy">
+                        </a>
+                        
 
-     <!-- Footer -->
-      <Footer>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!-- ===================== LIGHTBOX ===================== -->
+            <dialog id="lightbox" class="lightbox" aria-label="Photo viewer">
+                <button type="button" class="close-x" id="lightbox-close" aria-label="Close photo">&times;</button>
+                <button type="button" class="lightbox-arrow lightbox-prev" id="lightbox-prev"
+                    aria-label="Previous photo">&lsaquo;</button>
+                <img id="lightbox-img" src="./images/store-interior.jpg" alt="">
+                <img id="lightbox-img" src="./images/PnP-Blue-Hills-fruit-and-veg-section-233x233.jpg" alt="">
+                <img id="lightbox-img" src="./images/online-shopping.jpg" alt="">
+                <img id="lightbox-img" src="./images/All-Pages-7-scaled.jpg" alt="">
+
+                <!-- Link back to Home -->
+
+
+                <button type="button" class="lightbox-arrow lightbox-next" id="lightbox-next"
+                    aria-label="Next photo">&rsaquo;</button>
+                <p class="lightbox-caption" id="lightbox-caption"></p>
+            </dialog>
+
+    </main>
+
+    <!-- Footer -->
+    <Footer>
 
         <p>
             &copy; 2026 Pick n Pay Website Project
         </p>
 
         <P>WEDE5020- Web Development (Introduction)</P>
-    
-      </Footer>
+
+    </Footer>
 </body>
+<script src="js/script.js"></script>
+
 </html>
